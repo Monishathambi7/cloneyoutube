@@ -11,7 +11,6 @@ function ShowVideo({vid}) {
         //src={`http://localhost:5500/${vid.filePath}`}
         src={`https://cloneyoutube-gjhc.onrender.com/${vid.filePath}`}
         className="video_ShowVideo"
-        controls
         />
      </Link>
      <div className='video_description'>
