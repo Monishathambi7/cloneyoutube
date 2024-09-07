@@ -46,7 +46,7 @@ function VideoPage() {
                src={`https://cloneyoutube-gjhc.onrender.com/${vv?.filePath}`}
                onEnded={handleHistory}
               className={"video_ShowVideo_videoPage"}
-              controls
+              
             ></video>
             <div className="video_details_videoPage">
               <div className="video_btns_title_VideoPage_cont">
