@@ -17,3 +17,44 @@
 .btn_nav_home:hover{
     background-color: rgb(128,128,128);
 }
+@media(min-width:475px){
+    .navigation_Home{
+       font-size: .5rem;
+       overflow-x:scroll; 
+    }
+}
+@media(min-width:640px){
+    .navigation_Home{
+       font-size: .7rem;
+       overflow-x: auto;
+       top: 0; 
+    }
+}
+@media(min-width:768px){
+    .navigation_Home{
+       font-size: .9rem;
+       overflow-x: auto;
+       top: 0; 
+    }
+}
+@media(min-width:1024px){
+    .navigation_Home{
+       font-size: .9rem;
+       overflow-x: auto;
+       top: 0; 
+    }
+}
+@media(min-width:1280px){
+    .navigation_Home{
+        font-size: 1rem;
+        overflow-x: auto;
+        top: 0;
+    }
+}
+@media(min-width:1340px){
+    .navigation_Home{
+        font-size: 1rem;
+        overflow-x: auto;
+        top: 0;
+    }
+}
