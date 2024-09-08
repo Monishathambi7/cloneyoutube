@@ -19,3 +19,28 @@
     max-height: 80vh;
     overflow-y: auto;
 }
+
+@media(min-width:360px){
+    .container_videoList_LibraryPage h2{
+        font-size:.8rem ;
+    }
+    .title_container_LibraryPage b{
+        font-size: small;
+    }
+}
+@media(min-width:640px){
+    .container_videoList_LibraryPage h2{
+        font-size:1.2rem ;
+    }
+    .title_container_LibraryPage b{
+        font-size: medium;
+    }
+}
+@media(min-width:1024px){
+    .container_videoList_LibraryPage h2{
+        font-size:1.8rem ;
+    }
+    .title_container_LibraryPage b{
+        font-size: medium;
+    }
+}

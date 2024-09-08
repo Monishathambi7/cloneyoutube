@@ -2,3 +2,28 @@
     padding: 0.5rem;
     color: white;
 }
+
+@media(min-width:360px){
+    .container_yourvideo h1{
+        font-size: 1.3em;
+    }
+    .container_yourvideo h3{
+        font-size: 1em;
+    }
+}
+@media(min-width:640px){
+    .container_yourvideo h1{
+        font-size: 1.5em;
+    }
+    .container_yourvideo h3{
+        font-size: 1.3em;
+    }
+}
+@media(min-width:1024px){
+    .container_yourvideo h1{
+        font-size: 2em;
+    }
+    .container_yourvideo h3{
+        font-size: 1.8em;
+    }
+}
