@@ -45,11 +45,11 @@ video {
     max-width: 360px;
   }
   .Chanel_logo_App{
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.3rem;
+    height: 1.3rem;
   }
   .fstChar_logo_App{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .container2_Pages_App{
     width: calc(100vw - 2rem);
@@ -152,6 +152,7 @@ video {
     width: 2.2rem;
     height: 2.2rem;
     margin: .8rem;
+    margin-top: .2rem;
   }
   .fstChar_logo_App{
     font-size: 1rem;

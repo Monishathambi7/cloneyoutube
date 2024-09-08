@@ -54,3 +54,21 @@
     padding: 2rem 0;
     margin: auto;
 }
+@media(min-width:360px){
+  .ibox_div_vidupload{
+    width: 15rem;
+    font-size: 1rem;
+  }
+}
+@media(min-width:640px){
+  .ibox_div_vidupload{
+    width: 18rem;
+    font-size: 1rem;
+  }
+}
+@media(min-width:1024px){
+  .ibox_div_vidupload{
+    width: 22rem;
+    font-size: 1rem;
+  }
+}
