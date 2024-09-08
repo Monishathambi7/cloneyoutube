@@ -47,6 +47,41 @@
 }
 
 
+@media(min-width:360px){
+  .iBox_SearchBar{
+   width: 2rem;
+   height: .6rem;
+   margin-left: .3rem;
+   font-size: .3rem;
+  }
+  .searchIcon_SearchBar{
+   width: .5rem;
+   height: .7rem;
+   padding: .2rem;
+  }
+  .vid_bell_Navbar{
+   width: .5rem;
+   height: .5rem;
+   padding: .1rem;
+   margin: auto 0.1rem;
+  }
+  .Mic_SearchBar{
+   margin: auto 0.2rem;
+   width: .5rem;
+   height: .5rem;
+   padding: 0.2rem;
+  }
+  .SearchBar_Container2{
+   margin:3px ;
+   margin-top: .3rem;
+   margin-left: .3rem;
+  }
+  .SearchBar_Container{
+   width: fit-content;
+   margin-top: 2px;
+   flex-grow: 0;
+  }
+}
 @media(min-width:475px){
   .iBox_SearchBar{
    width: 3rem;
@@ -177,13 +212,13 @@
   }
   .SearchBar_Container{
    width: fit-content;
-  
+   margin-top: .6rem;
   }
 }
 @media(min-width:1280px){
   .iBox_SearchBar{
    width: 30rem;
-   height: 1.8rem;
+   height: 2rem;
    margin: 0;
    font-size: large;
    padding: 0.2rem;

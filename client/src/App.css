@@ -40,6 +40,26 @@ video {
   margin: auto 0.5rem;
 }
 
+@media(min-width:360px){
+  .container_Pages_App{
+    max-width: 360px;
+  }
+  .Chanel_logo_App{
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .fstChar_logo_App{
+    font-size: 0.8rem;
+  }
+  .container2_Pages_App{
+    width: calc(100vw - 2rem);
+  }
+  .video_box_app{
+    width: 18rem;
+    height: 14rem;
+    margin-left: 1rem;
+    }
+}
 
 @media(min-width:475px){
   .container_Pages_App{
@@ -70,6 +90,11 @@ video {
   .container2_Pages_App{
     width: calc(100vw - 2rem);
   }
+  .video_box_app{
+    width: fit-content;
+    height: 16rem;
+    margin-left: 2rem;
+    }
 }
 @media(min-width:768px){
   .container_Pages_App{
@@ -118,7 +143,7 @@ video {
 }
 @media(min-width:1340px){
   .container_Pages_App{
-    max-width: 1536px;
+    max-width: 1800px;
   }
   .container2_Pages_App{
     width: calc(100vw - 5rem);

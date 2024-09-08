@@ -67,6 +67,64 @@
     border-radius: 0.1rem;
 }
 
+
+@media(min-width:360px){
+   .Container_Navbar{
+       height: calc(2.1rem - .8px);
+       max-width: 360px;
+   }
+   .logo_div_Navbar{
+      width: fit-content;
+      height: fit-content;
+      margin-top: 3px;
+   }
+    .logo_div_Navbar img{
+       width: 26px;
+       height: 26px;
+       margin-top: .1em;
+    }
+    .logo_title_navbar{
+       font-size: 0.6rem;
+       margin: 0;
+       margin-top: .8em;
+    }
+    .apps_Box{
+       width: .6rem;
+       height: .6rem; 
+       margin: auto;
+    }
+    .appBox{
+       width: .8px;
+       height: .8px;
+       margin: 0;
+       border: .1px solid white;
+    }
+    .Auth_cont_Navbar{
+       margin: auto 0.1rem;
+       height: 1.5rem;  
+    }
+    .Auth_Btn{
+       padding: 0.2rem;
+       padding-top: 0;
+       font-size: 0.4rem;
+       font-weight: lighter;
+    }
+    #logoo{
+      width: 16px;
+      height: 16px;
+    }
+    .burger{
+      padding: 0;
+      padding-top: 0;
+      height: 2rem;
+    }
+    .burger p{
+       width: .8rem;
+    }
+    .Burger_Logo_Navbar{
+      height: 2.2rem;
+    }
+}
 @media(min-width:475px){
     .Container_Navbar{
         height: calc(2.5rem - 1px);
@@ -94,19 +152,26 @@
      }
      .Auth_cont_Navbar{
         margin: auto 0.2rem;
-        
+        height: 1.8rem;
      }
      .Auth_Btn{
         padding: 0.2rem;
         font-size: 0.6rem;
         font-weight: lighter
      }
+     #logoo{
+      width: 20px;
+      height: 20px;
+    }
      .burger{
         padding-top: 0;
      }
      .burger p{
         width: 1rem;
      }
+     .Burger_Logo_Navbar{
+      height: 3.3rem;
+    }
 }
 @media(min-width:640px){
     .Container_Navbar{
@@ -135,7 +200,7 @@
      }
      .Auth_cont_Navbar{
         margin: auto 0.2rem;
-        
+        height: 2rem;
      }
      .Auth_Btn{
         padding: 0.2rem;
@@ -157,12 +222,12 @@
      .logo_div_Navbar img{
         width: 32px;
         height: 32px;
-        margin-top: .5em;
+        margin-top: .3em;
      }
      .logo_title_navbar{
         font-size: 1rem;
         margin: 0;
-        margin-top: .8em;
+        margin-top: .5em;
      }
      .apps_Box{
         width: .8rem;
@@ -175,7 +240,8 @@
         border: .2px solid white;
      }
      .Auth_cont_Navbar{
-        margin: auto 0.3rem;  
+        margin: auto 0.3rem; 
+        height: 2.3rem; 
      }
      .Auth_Btn{
         padding: 0.3rem;
@@ -183,6 +249,8 @@
         font-weight: lighter;
      }
      .burger{
+        padding: 0.5rem;
+        margin: 0.2rem;
         padding-top: 0;
      }
      .burger p{
@@ -191,18 +259,18 @@
 }
 @media(min-width:1024px){
     .Container_Navbar{
-        height: calc(3.2rem - 1.2px);
+        height: calc(3.3rem - 1.5px);
         max-width: 1024px;
     }
      .logo_div_Navbar img{
-        width: 32px;
-        height: 32px;
-        margin-top: .5em;
+        width: 40px;
+        height: 40px;
+        margin-top: .3em;
      }
      .logo_title_navbar{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: 0;
-        margin-top: .8em;
+        margin-top: .6em;
      }
      .apps_Box{
         width: .8rem;
@@ -216,6 +284,7 @@
      }
      .Auth_cont_Navbar{
         margin: auto 0.3rem;  
+        height: 2.3rem;
      }
      .Auth_Btn{
         padding: 0.3rem;
@@ -223,10 +292,10 @@
         font-weight: lighter;
      }
      .burger{
-        padding-top: 0;
+        padding:0.5rem;
      }
      .burger p{
-        width: 1rem;
+        width: 1.2rem;
      }
 }
 @media(min-width:1280px){
@@ -235,12 +304,12 @@
         max-width: 1280px;
     }
      .logo_div_Navbar img{
-        width: 100%;
-        height: 100%;
+        width: 48px;
+        height: 48px;
         margin-top: 0;
      }
      .logo_title_navbar{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: auto;
      }
      .apps_Box{
@@ -254,13 +323,18 @@
         border: 1px solid white;
      }
      .Auth_cont_Navbar{
-        margin: auto 0.5rem;  
+        margin: auto 0.5rem;
+        height: 2.5rem;  
      }
      .Auth_Btn{
         padding: 0.5rem;
         font-size: 1rem;
         font-weight: bold;
      }
+     #logoo{
+      width: 22px;
+      height: 22px;
+    }
      .burger{
         margin: 0.2rem;
         padding: 0.5rem;
@@ -268,21 +342,21 @@
         margin-right: 0.7rem;
      }
      .burger p{
-        width: 1.2rem;
+        width: 1.4rem;
      }
 }
 @media(min-width:1340px){
     .Container_Navbar{
         height: calc(3.5rem - 2px);
-        max-width: 1536px;
+        max-width: 1800px;
     }
      .logo_div_Navbar img{
-        width: 100%;
-        height: 100%;
+        width: 52px;
+        height: 52px;
         margin: 0;
      }
      .logo_title_navbar{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: auto;
      }
      .apps_Box{

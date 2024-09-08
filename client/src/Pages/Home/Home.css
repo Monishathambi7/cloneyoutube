@@ -17,6 +17,17 @@
 .btn_nav_home:hover{
     background-color: rgb(128,128,128);
 }
+@media(min-width:360px){
+    .navigation_Home{
+       font-size: .5rem;
+       overflow-x:scroll; 
+       border-bottom: 1px solid rgb(128,128,128,0.27);
+    }
+    .btn_nav_home{
+        margin: 0.3rem;
+        padding: 0.2rem;
+    }
+}
 @media(min-width:475px){
     .navigation_Home{
        font-size: .5rem;
@@ -28,6 +39,10 @@
        font-size: .7rem;
        overflow-x: auto;
        top: 0; 
+    }
+    .btn_nav_home{
+        margin: 0.5rem;
+        padding: 0.5rem;
     }
 }
 @media(min-width:768px){

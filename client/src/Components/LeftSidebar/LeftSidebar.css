@@ -81,7 +81,23 @@
   background-color: rgba(0, 0, 0, 0.488);
 }
 
-
+@media(min-width:360px){
+  .container_leftSidebar{
+    width: 2.8rem;
+    max-width: 360px;
+  }
+  .icon_sidebar{
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+  .text_sidebar_icon{
+    font-size: 0.60rem;
+    font-weight: 100;
+  }
+  #text1{
+    font-size: 0.35rem;
+  } 
+}
 @media(min-width:475px){
   .container_leftSidebar{
     width: 3rem;
@@ -170,7 +186,7 @@
 @media(min-width:1340px){
   .container_leftSidebar{
     width: 4.7rem;
-    max-width: 1536px;
+    max-width: 1800px;
   }
   .icon_sidebar{
     width: 1.5rem;

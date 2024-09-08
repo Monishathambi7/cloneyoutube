@@ -33,6 +33,23 @@
     display: flex;
 }
 
+@media(min-width:360px){
+    .video_ShowVideo{
+        width: calc(85% - 0.2rem);
+        margin-left: 0.2rem;
+        margin-top: 0.2rem;
+    }
+    .video_description{
+        height: 2.5rem;
+        font-size: 2.5rem;
+        }
+        .title_vid_ShowVideo{
+            font-size: .8rem;
+            }
+            .vid_views_UploadTime{
+                font-size: small;
+                }
+}
 
 @media(min-width:475px){
     .video_ShowVideo{

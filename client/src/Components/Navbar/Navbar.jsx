@@ -99,7 +99,7 @@ function Navbar({ toggleDrawer,setEditCreateChanelBtn }) {
               render={(renderProps) => (
                 <p onClick={renderProps.onClick} className="Auth_Btn">
                 {/* <p onClick={logTmp} className="Auth_Btn"> */}
-                  <BiUserCircle size={22} />
+                  <BiUserCircle id="logoo" size={22} />
                   <b>Sign in</b>
                 </p>
                )}
